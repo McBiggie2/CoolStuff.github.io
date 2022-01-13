@@ -4,3 +4,8 @@ margin: 30 auto;
 padding: 10 30;
 background-color: white;
 }
+
+head{
+  font-family:Arial;
+  color:grey;
+}

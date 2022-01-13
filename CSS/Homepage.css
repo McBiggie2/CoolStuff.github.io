@@ -1,6 +1,23 @@
-#page {
-width: 800px;
+#page    {
+width: 1000px;
 margin: 30 auto;
-padding: 10 30;
-background-color: white;
+padding: 20 30;
+background-color: white; 
 }
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+background-color: #CCCCFF;
+
+}
+
+p{
+font-family: Arial;
+color: black;
+font-size: 18pt;
+text-align:justify;
+line-height: 150%}

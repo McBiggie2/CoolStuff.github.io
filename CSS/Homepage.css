@@ -20,4 +20,10 @@ font-family: Arial;
 color: black;
 font-size: 18pt;
 text-align:justify;
-line-height: 150%}
+line-height: 150%;
+}
+
+{head
+  font-family:Arial;
+  color:grey;
+}

@@ -1170,8 +1170,6 @@ Game.Launch=function()
 		Game.Loader.loaded=Game.Init;
 		Game.Loader.Load(['filler.png']);
 	}
-	Game.timedout=false;
-	Game.Timeout=function()
 	{
 		Game.WriteSave();
 		Game.killShimmers();

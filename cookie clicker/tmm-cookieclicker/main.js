@@ -10434,7 +10434,7 @@ Game.Launch=function()
 		new Game.Achievement('Rebirth','Ascend at least once.',[21,6]);
 		
 		order=11000;
-		new Game.Achievement('Here you go','Click this achievement\'s slot.<q>All you had to do was ask.</q>',[1,7]);Game.last.clickFunction=function(){if (!Game.HasAchiev('Here you go')){PlaySound('snd/tick.mp3');Game.Win('Here you go');}};
+		new Game.Achievement('WATCH OUT A BOMB','You almost caused a national tragedy\'s slot.<q>You should be ashamed.</q>',[1,7]);Game.last.clickFunction=function(){if (!Game.HasAchiev('Here you go')){PlaySound('snd/tick.mp3');Game.Win('Here you go');}};
 		
 		order=30000;
 		new Game.Achievement('Resurrection','Ascend <b>10 times</b>.',[21,6]);

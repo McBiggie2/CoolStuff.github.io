@@ -601,15 +601,15 @@ Game.Launch=function()
 	'<div class="section">Info</div>'+
 	'<div class="subsection">'+
 	'<div class="title">About</div>'+
-	'<div class="listing">Cookie Clicker COOL STUFF EDITION is a javascript game by <a href="http://orteil.dashnet.org" target="_blank">Orteil</a> and <a href="http://dashnet.org" target="_blank">Opti</a>.</div>'+
+	'<div class="listing">Cookie Clicker is a javascript game by <a href="http://orteil.dashnet.org" target="_blank">Orteil</a> and <a href="http://dashnet.org" target="_blank">Opti</a>.</div>'+
 	//'<div class="listing">We have an <a href="https://discordapp.com/invite/cookie" target="_blank">official Discord</a>, as well as a <a href="http://forum.dashnet.org" target="_blank">forum</a>; '+
 	'<div class="listing">We have an <a href="https://discordapp.com/invite/cookie" target="_blank">official Discord</a>; '+
 		'if you\'re looking for help, you may also want to visit the <a href="http://www.reddit.com/r/CookieClicker" target="_blank">subreddit</a> '+
 		'or the <a href="http://cookieclicker.wikia.com/wiki/Cookie_Clicker_Wiki" target="_blank">wiki</a>.</div>'+
 	'<div class="listing">News and teasers are usually posted on my <a href="http://orteil42.tumblr.com/" target="_blank">tumblr</a> and <a href="http://twitter.com/orteil42" target="_blank">twitter</a>.</div>'+
-	'<div class="listing" id="supportSection"><b style="color:#fff;opacity:1;">Cookie Clicker COOL STUFF EDITION is 100% free, forever.</b> Want to support us so we can keep developing games? Here\'s some ways you can help :<div style="margin:4px 12px;line-height:150%;">'+
+	'<div class="listing" id="supportSection"><b style="color:#fff;opacity:1;">Cookie Clicker is 100% free, forever.</b> Want to support us so we can keep developing games? Here\'s some ways you can help :<div style="margin:4px 12px;line-height:150%;">'+
 	'<br>&bull; support us on <a href="https://www.patreon.com/dashnet" target="_blank" class="highlightHover" style="background:#f86754;box-shadow:0px 0px 0px 1px #c52921 inset,0px 2px 0px #ff966d inset;text-shadow:0px -1px 0px #ff966d,0px 1px 0px #c52921;text-decoration:none;color:#fff;font-weight:bold;padding:1px 4px;">Patreon</a> <span style="opacity:0.5;">(there\'s perks!)</span>'+
-	'<br>&bull; <form target="_blank" action="https://www.paypal.com/cgi-bin/webscr" method="post" id="donate"><input type="hidden" name="cmd" value="_s-xclick"><input type="hidden" name="hosted_button_id" value="BBN2WL3TC6QH4"><input type="submit" id="donateButton" value="donate" name="submit" alt="PayPal â€” The safer, easier way to pay online."><img alt="" border="0" src="https://www.paypalobjects.com/nl_NL/i/scr/pixel.gif" width="1" height="1"></form> to our PayPal'+
+	'<br>&bull; <form target="_blank" action="https://www.paypal.com/cgi-bin/webscr" method="post" id="donate"><input type="hidden" name="cmd" value="_s-xclick"><input type="hidden" name="hosted_button_id" value="BBN2WL3TC6QH4"><input type="submit" id="donateButton" value="donate" name="submit" alt="PayPal — The safer, easier way to pay online."><img alt="" border="0" src="https://www.paypalobjects.com/nl_NL/i/scr/pixel.gif" width="1" height="1"></form> to our PayPal'+
 	'<br>&bull; disable your adblocker<br>&bull; check out our <a href="http://www.redbubble.com/people/dashnet" target="_blank">rad cookie shirts, hoodies and stickers</a>!<br>&bull; (if you want!)</div></div>'+
 	'<div class="listing warning">Note : if you find a new bug after an update and you\'re using a 3rd-party add-on, make sure it\'s not just your add-on causing it!</div>'+
 	'<div class="listing warning">Warning : clearing your browser cache or cookies <small>(what else?)</small> will result in your save being wiped. Export your save and back it up first!</div>'+
@@ -619,16 +619,16 @@ Game.Launch=function()
 	
 	'</div><div class="subsection update">'+
 	'<div class="title">28/09/2019 - going off-script</div>'+
-	'<div class="listing">&bull; i fucked your mom so hard mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm</div>'+
+	'<div class="listing">&bull; added a new building</div>'+
 	'<div class="listing">&bull; added fortune cookies (a new heavenly upgrade)</div>'+
 	'<div class="listing">&bull; more upgrades, achievements etc</div>'+
 	'<div class="listing">&bull; updated the Russian bread cookies icon to better reflect their cyrillic origins</div>'+
 	'<div class="listing">&bull; <i style="font-style:italic;">stealth update :</i> the sugar lump refill timeout (not sugar lump growth) now no longer ticks down while the game is closed (this fixes an exploit)</div>'+
-	'<div class="listing">&bull; also released the official Android version of Cookie Clicker COOL STUFF EDITION, playable <a href="https://play.google.com/store/apps/details?id=org.dashnet.cookieclicker" target="_blank">here</a> (iOS version will come later)</div>'+
+	'<div class="listing">&bull; also released the official Android version of Cookie Clicker, playable <a href="https://play.google.com/store/apps/details?id=org.dashnet.cookieclicker" target="_blank">here</a> (iOS version will come later)</div>'+
 	
 	'</div><div class="subsection update small">'+
 	'<div class="title">01/04/2019 - 2.019 (the "this year" update)</div>'+
-	'<div class="listing">&bull; game has been renamed to "Cookie Clicker COOL STUFF EDITION" to avoid confusion</div>'+
+	'<div class="listing">&bull; game has been renamed to "Cookie Clicker" to avoid confusion</div>'+
 	'<div class="listing">&bull; can now click the big cookie to generate cookies for free</div>'+
 	'<div class="listing">&bull; removed fall damage</div>'+
 	//'<div class="listing">&bull; fixed various typos : player\'s name is now correctly spelled as "[bakeryName]"</div>'+
@@ -1102,14 +1102,6 @@ Game.Launch=function()
 		Game.Loader.domain='img/';
 		Game.Loader.loaded=Game.Init;
 		Game.Loader.Load(['filler.png']);
-	}
-	Game.ErrorFrame=function()
-	{
-		l('javascriptError').innerHTML=
-		'<div class="title">Oops. Wrong address!</div>'+
-		'<div>It looks like you\'re accessing Cookie Clicker from another URL than the official one.<br>'+
-		'You can <a href="http://orteil.dashnet.org/cookieclicker/" target="_blank">play Cookie Clicker over here</a>!<br>'+
-		'<small>(If for any reason, you are unable to access the game on the official URL, we are currently working on a second domain.)</small></div>';
 	}
 	Game.timedout=false;
 	Game.Timeout=function()
@@ -10434,7 +10426,7 @@ Game.Launch=function()
 		new Game.Achievement('Rebirth','Ascend at least once.',[21,6]);
 		
 		order=11000;
-		new Game.Achievement('WATCH OUT A BOMB','You almost caused a national tragedy\'s slot.<q>You should be ashamed.</q>',[1,7]);Game.last.clickFunction=function(){if (!Game.HasAchiev('WATCH OUT A BOMB')){PlaySound('snd/tick.mp3');Game.Win('WATCH OUT A BOMB');}};
+		new Game.Achievement('WATCH OUT A BOMB','You almost caused a national tragedy.<q>You should be ashamed.</q>',[1,7]);Game.last.clickFunction=function(){if (!Game.HasAchiev('Here you go')){PlaySound('snd/tick.mp3');Game.Win('Here you go');}};
 		
 		order=30000;
 		new Game.Achievement('Resurrection','Ascend <b>10 times</b>.',[21,6]);
@@ -10482,7 +10474,7 @@ Game.Launch=function()
 		Game.CpsAchievement('Faster menner');
 		Game.CpsAchievement('And yet you\'re still hungry');
 		Game.CpsAchievement('The Abakening');
-		Game.CpsAchievement('There\'s really no hard limit to how long these achievement names can be and to be quite honest I\'m rather curious to see how far we can go.<br>Adolphus W. Green (1844â€“1917) started as the Principal of the Groton School in 1864. By 1865, he became second assistant librarian at the New York Mercantile Library; from 1867 to 1869, he was promoted to full librarian. From 1869 to 1873, he worked for Evarts, Southmayd & Choate, a law firm co-founded by William M. Evarts, Charles Ferdinand Southmayd and Joseph Hodges Choate. He was admitted to the New York State Bar Association in 1873.<br>Anyway, how\'s your day been?');//Game.last.shortName='There\'s really no hard limit to how long these achievement names can be and to be quite honest I\'m [...]';
+		Game.CpsAchievement('There\'s really no hard limit to how long these achievement names can be and to be quite honest I\'m rather curious to see how far we can go.<br>Adolphus W. Green (1844–1917) started as the Principal of the Groton School in 1864. By 1865, he became second assistant librarian at the New York Mercantile Library; from 1867 to 1869, he was promoted to full librarian. From 1869 to 1873, he worked for Evarts, Southmayd & Choate, a law firm co-founded by William M. Evarts, Charles Ferdinand Southmayd and Joseph Hodges Choate. He was admitted to the New York State Bar Association in 1873.<br>Anyway, how\'s your day been?');//Game.last.shortName='There\'s really no hard limit to how long these achievement names can be and to be quite honest I\'m [...]';
 		Game.CpsAchievement('Fast');Game.last.baseDesc+='<q>Wow!</q>';Game.last.desc=BeautifyInText(Game.last.baseDesc);
 		
 		order=7002;
@@ -10559,7 +10551,7 @@ Game.Launch=function()
 		order=1475;Game.TieredAchievement('It\'s a kind of magic','Have <b>350</b> wizard towers.','Wizard tower',8);
 		order=1500;Game.TieredAchievement('Make it so','Have <b>350</b> shipments.','Shipment',8);
 		order=1600;Game.TieredAchievement('All that glitters is gold','Have <b>350</b> alchemy labs.','Alchemy lab',8);
-		order=1700;Game.TieredAchievement('HÍ¡Ì¸Ì·Í“Ì³Ì³Ì¯ÌŸÍ•ÌŸÍÍÌ£eÍ¡Ì¢Í˜Ì°Ì¦Ì°ÌºÌ®ÌÍ–Í–Ì˜ÌªÍ‰ Í˜Ì Ì¦Í•Ì¤ÌªÌÍ…Ì¥Ì°Ì Ì«Ì–Ì£Í™Ì¬CÌ¨Ì¦ÌºÌ©Ì²Ì¥Í‰Ì­ÍšÌœÌ»ÌÌ£Ì¼Í™Ì®Ì¯ÌªoÌ¡Ì´ÍžÍ¡Í‡Ì˜ÍŽÌžÌ²Í‡Ì¦Ì²mÌ¸Í˜Ì©ÌºÌÌ£Ì¹Í…Ì±ÍšÌ¬Ì¥Ì«Ì³Ì¼ÌžÌ˜Ì¯eÍ¢Ì•ÍÌ£Í‡ÌºÌœsÍ˜Í˜Ì¶ÍžÌ™ÌŸÌ±Ì¥Ì®Ì¯Ì°Ì¦Í“Í‡Í–Í–Ì','Have <b>350</b> portals.','Portal',8);
+		order=1700;Game.TieredAchievement('H̸̷͓̳̳̯̟͕̟͍͍̣͡ḛ̢̦̰̺̮̝͖͖̘̪͉͘͡ ̠̦͕̤̪̝̥̰̠̫̖̣͙̬͘ͅC̨̦̺̩̲̥͉̭͚̜̻̝̣̼͙̮̯̪o̴̡͇̘͎̞̲͇̦̲͞͡m̸̩̺̝̣̹̱͚̬̥̫̳̼̞̘̯͘ͅẹ͇̺̜́̕͢s̶̙̟̱̥̮̯̰̦͓͇͖͖̝͘͘͞','Have <b>350</b> portals.','Portal',8);
 		order=1800;Game.TieredAchievement('Way back then','Have <b>350</b> time machines.','Time machine',8);
 		order=1900;Game.TieredAchievement('Exotic matter','Have <b>350</b> antimatter condensers.','Antimatter condenser',8);
 		order=2000;Game.TieredAchievement('At the end of the tunnel','Have <b>350</b> prisms.','Prism',8);
@@ -13685,15 +13677,19 @@ window.onload=function()
 	
 	if (!Game.ready)
 	{
-		console.log('[=== '+choose([
-			'Oh, hello!',
-			'hey, how\'s it hangin',
-			'About to cheat in some cookies or just checking for bugs?',
-			'Remember : cheated cookies taste awful!',
-			'Hey, Orteil here. Cheated cookies taste awful... or do they?',
-		])+' ===]');
-		Game.Load();
-		//try {Game.Load();}
-		//catch(err) {console.log('ERROR : '+err.message);}
+		if (top!=self) Game.ErrorFrame();
+		else
+		{
+			console.log('[=== '+choose([
+				'Oh, hello!',
+				'hey, how\'s it hangin',
+				'About to cheat in some cookies or just checking for bugs?',
+				'Remember : cheated cookies taste awful!',
+				'Hey, Orteil here. Cheated cookies taste awful... or do they?',
+			])+' ===]');
+			Game.Load();
+			//try {Game.Load();}
+			//catch(err) {console.log('ERROR : '+err.message);}
+		}
 	}
 };

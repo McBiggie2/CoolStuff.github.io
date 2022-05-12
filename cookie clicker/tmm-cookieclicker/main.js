@@ -6437,7 +6437,7 @@ Game.Launch=function()
 		AddEvent(Game.tickerL,'click',function(event){
 			Game.Ticker='';
 			Game.TickerClicks++;
-			if (Game.TickerClicks==50) {Game.Win('Tabloid addiction');}
+			if (Game.TickerClicks==50) {Game.Win('International Tragedy');}
 			
 			if (Game.TickerEffect && Game.TickerEffect.type=='fortune')
 			{
@@ -10434,7 +10434,7 @@ Game.Launch=function()
 		new Game.Achievement('Rebirth','Ascend at least once.',[21,6]);
 		
 		order=11000;
-		new Game.Achievement('Here you go','Click this achievement\'s slot.<q>All you had to do was ask.</q>',[1,7]);Game.last.clickFunction=function(){if (!Game.HasAchiev('Here you go')){PlaySound('snd/tick.mp3');Game.Win('Here you go');}};
+		new Game.Achievement('WATCH OUT A BOMB','You almost caused a national tragedy.<q>You should be ashamed.</q>',[1,7]);Game.last.clickFunction=function(){if (!Game.HasAchiev('WATCH OUT A BOMB')){PlaySound('snd/tick.mp3');Game.Win('WATCH OUT A BOMB');}};
 		
 		order=30000;
 		new Game.Achievement('Resurrection','Ascend <b>10 times</b>.',[21,6]);
@@ -10489,7 +10489,7 @@ Game.Launch=function()
 		new Game.Achievement('Bicentennial and a half','Have at least <b>250 of everything</b>.<q>Keep on truckin\'.</q>',[9,6]);
 		
 		order=11000;
-		new Game.Achievement('Tabloid addiction','Click on the news ticker <b>50 times</b>.<q>Page 6 : Mad individual clicks on picture of pastry in a futile attempt to escape boredom!<br>Also page 6 : British parliament ate my baby!</q>',[27,7]);
+		new Game.Achievement('International Tragedy','It was so bad it wasn't just a national one.<q>Did you do this?</q>',[27,7]);
 		
 		order=1000;
 		new Game.Achievement('Clickastrophe','Make <b>100,000,000,000,000,000</b> cookies from clicking.',[11,17]);

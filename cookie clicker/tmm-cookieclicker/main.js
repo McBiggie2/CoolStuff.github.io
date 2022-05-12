@@ -10489,7 +10489,7 @@ Game.Launch=function()
 		new Game.Achievement('Bicentennial and a half','Have at least <b>250 of everything</b>.<q>Keep on truckin\'.</q>',[9,6]);
 		
 		order=11000;
-		new Game.Achievement('International Tragedy','It was so bad it wasn't just a national one.<q>Did you do this?</q>',[27,7]);
+		new Game.Achievement('International Tragedy','It was so bad it wasn\'t just a national one.<q>Did you do this?</q>',[27,7]);
 		
 		order=1000;
 		new Game.Achievement('Clickastrophe','Make <b>100,000,000,000,000,000</b> cookies from clicking.',[11,17]);
